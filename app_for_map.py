@@ -43,4 +43,4 @@ def map_view():
     m.save(map_path)
     return render_template('zinke_soil_map.html')
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run()
